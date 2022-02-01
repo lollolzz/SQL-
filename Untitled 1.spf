@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>Ajax</string>
+			<key>host</key>
+			<string>13.124.154.221</string>
+			<key>kcid</key>
+			<string>456518546799644299</string>
+			<key>name</key>
+			<string>팀프로젝트</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>maro02260226</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0
+			b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRk
+			YXRhgAGtCwwZGhscHSEoLDA1OlUkbnVsbNMNDg8QFBhXTlMua2V5
+			c1pOUy5vYmplY3RzViRjbGFzc6MREhOAAoADgASjFRYXgAWABoAI
+			gAxUdHlwZVRyb3dzVGtleXNfECZTZWxlY3Rpb25EZXRhaWxUeXBl
+			UHJpbWFyeUtleWVkRGV0YWlsc9MNDg8eHyCgoIAH0iIjJCVaJGNs
+			YXNzbmFtZVgkY2xhc3Nlc18QE05TTXV0YWJsZURpY3Rpb25hcnmj
+			JCYnXE5TRGljdGlvbmFyeVhOU09iamVjdNIODykroSqACYAL0g8t
+			Li9ZTlMuc3RyaW5ngApWY2FydElk0iIjMTJfEA9OU011dGFibGVT
+			dHJpbmejMTM0WE5TU3RyaW5nWE5TT2JqZWN00iIjNjdeTlNNdXRh
+			YmxlQXJyYXmjNjg5V05TQXJyYXlYTlNPYmplY3TSIiMmO6ImPFhO
+			U09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAYQBnAG4AdgCB
+			AIgAjACOAJAAkgCWAJgAmgCcAJ4AowCoAK0A1gDdAN4A3wDhAOYA
+			8QD6ARABFAEhASoBLwExATMBNQE6AUQBRgFNAVIBZAFoAXEBegF/
+			AY4BkgGaAaMBqAGrAAAAAAAAAgEAAAAAAAAAPQAAAAAAAAAAAAAA
+			AAAAAbQ=
+			</data>
+			<key>contentSortCol</key>
+			<string>total</string>
+			<key>contentSortColIsAsc</key>
+			<false/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {1116, 709}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>SELECT 
+			a.*,
+			b.*,
+			c.*,
+			c.price AS pPrice,
+			c.thumb1 AS pThumb1,
+			c.name AS pName
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16;</string>
+			<key>table</key>
+			<string>aj_product_cart</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>315</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT 
+			a.*,
+			b.*,
+			c.*,
+			c.price AS pPrice,
+			c.thumb1 AS pThumb1,
+			c.name AS pName
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*,
+			b.*,
+			c.*,
+			c.thumb1 AS pThumb1,
+			c.name AS pName
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*,
+			b.*,
+			c.*,
+			c.thumb1 AS pThumb1,
+			c.name AS pName
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=#{orderId};</string>
+		<string>SELECT 
+			a.*,
+			b.*,
+			c.thumb1 AS pThumb1,
+			c.name AS pName
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*,
+			b.*,
+			c.thumb1
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*,
+			b.*,
+			c.*
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+			
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		RIGHT JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+			
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		LEFT JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+			
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		JOIN `aj_product` AS c
+		ON (b.productCode = c.productCode)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+			
+		FROM `aj_product_order` AS a
+		LEFT OUTER JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+			
+		FROM `aj_product_order` AS a
+		FULL OUTER JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+			
+		FROM `aj_product_order` AS a
+		JOIN `aj_product_cart` AS b
+		ON (a.uid = b.uid)
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+			
+		FROM `aj_product_order` AS a
+	
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*,
+			
+		FROM `aj_product_order` AS a
+	
+		WHERE a.`orderId`=16</string>
+		<string>SELECT 
+			a.*
+		FROM `aj_product_order` AS a
+		WHERE a.`orderId`=16</string>
+		<string>WHERE a.`orderId`=#16;</string>
+		<string>SELECT 
+			a.*
+		FROM `aj_product_order` AS a
+		WHERE a.`orderId`=#16;</string>
+		<string>SELECT * FROM `aj_product_order`</string>
+		<string>SELECT * FROM `aj_order`</string>
+		<string>SELECT 
+			a.*,
+			b.orderId,
+			c.*,
+			c.name as `pName`,
+			sum(count) as sumcount
+		FROM `aj_product_cart` AS a
+		JOIN `aj_product_order` AS b
+		ON a.uid = b.uid;
+JOIN `aj_product` AS c
+		ON a.proDuctcode = b.proDuctcode</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.5.68-MariaDB</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
